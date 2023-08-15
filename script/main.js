@@ -1,4 +1,7 @@
 // Import the data to customize and insert them into page
+
+// Set up the audio element
+
 const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())
@@ -115,7 +118,7 @@ const animationTimeline = () => {
       0.05
     )
     .to(".fake-btn", 0.1, {
-      backgroundColor: "rgb(127, 206, 248)"
+      backgroundColor: "#ff6a9d"
     })
     .to(
       ".four",
@@ -133,9 +136,9 @@ const animationTimeline = () => {
     .to(".idea-2", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
-      scale: 1.2,
+      scale: 1,
       x: 10,
-      backgroundColor: "rgb(21, 161, 237)",
+      backgroundColor: "#ff6a9d",
       color: "#fff"
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
@@ -209,7 +212,7 @@ const animationTimeline = () => {
       0.2
     )
     .from(
-      ".lydia-dp",
+      ".farkhan-dp",
       0.5,
       {
         scale: 3.5,
