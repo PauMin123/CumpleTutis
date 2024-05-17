@@ -277,7 +277,7 @@ body {
     font-size: 2em;
     margin: 20;
     text-transform: uppercase;
-    letter-spacing: 3em; /* Ajusta el espacio entre letras según tus necesidades */
+    letter-spacing: 0.2em; /* Ajusta el espacio entre letras según tus necesidades */
 }
 
   .wish h5 {
